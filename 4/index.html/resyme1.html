@@ -1,0 +1,130 @@
+<!DOCTYPE html><html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ілля Кулаженко - Резюме</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: white;
+    }
+    .container {
+      display: flex;
+      min-height: 100vh;
+    }
+    .sidebar {
+      background-color: #1a1a1a;
+      padding: 20px;
+      width: 250px;
+    }
+    .sidebar img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+      margin: 0 auto 20px;
+    }
+    .sidebar h1 {
+      font-size: 22px;
+      margin-bottom: 10px;
+      color: #ff3c00;
+      text-align: center;
+    }
+    .sidebar h2 {
+      font-size: 18px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      color: #ff3c00;
+    }
+    .sidebar p {
+      font-size: 14px;
+      margin: 4px 0;
+    }
+    .main {
+      flex: 1;
+      background-color: #181818;
+      padding: 40px;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    .section h2 {
+      color: #ff3c00;
+      border-bottom: 1px solid #444;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+    }
+    nav {
+      position: fixed;
+      top: 0;
+      left: 250px;
+      right: 0;
+      background: #1a1a1a;
+      padding: 10px 40px;
+      display: flex;
+      gap: 20px;
+      z-index: 1000;
+    }
+    nav a {
+      color: #ff3c00;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <img src="photo-2025.jpg" alt="Ілля Кулаженко">
+      <h1>Ілля Кулаженко</h1>
+      <p><strong>Місто:</strong> Івано-Франківськ</p>
+      <p><strong>Номер:</strong> 095-527-1058</p>
+      <p><strong>Email:</strong> 095527108ki@gmail.com</p>
+      <p><strong>Дата народження:</strong> 30.11.2009</p>
+      <h2>Інтереси</h2>
+      <p>Створення сайтів, Робота руками</p>
+      <h2>Мови</h2>
+      <p>Українська (рідна)</p>
+      <p>Російська, Польська, Англійська (трохи)</p>
+    </div>
+    <div class="main">
+      <nav>
+        <a href="#about">Про мене</a>
+        <a href="#education">Освіта</a>
+        <a href="#skills">Навички</a>
+        <a href="#projects">Проєкти</a>
+      </nav>
+      <div id="about" class="section">
+        <h2>Про мене</h2>
+        <p>Я — студент, який захоплюється створенням вебінтерфейсів та сучасних інформаційних рішень. Моя курсова робота з дисципліни "Бази даних" — це демонстрація навичок структурування контенту та побудови зручного інтерфейсу користувача.</p>
+        <p>У майбутньому планую поглибити знання у фронтенд- та бекенд-розробці, використовуючи такі технології як JavaScript, React, Node.js і бази даних.</p>
+      </div>
+      <div id="education" class="section">
+        <h2>Освіта</h2>
+        <p>Ліцей №10 Івано-Франківської міської ради</p>
+        <p>Закінчення: ще навчаюсь</p>
+      </div>
+      <div id="skills" class="section">
+        <h2>Навички</h2>
+        <ul>
+          <li>HTML</li>
+          <li>Створення простих сайтів</li>
+          <li>Основи CSS</li>
+        </ul>
+      </div>
+      <div id="projects" class="section">
+        <h2>Проєкти</h2>
+        <p>Я розробив адаптивний вебсайт для автосервісу, що включає простий інтерфейс користувача, мобільну версію та чисту структуру коду. Також експериментував із формами зворотного зв'язку, стилізацією елементів за допомогою CSS та інтеграцією простих скриптів.</p>
+        <p>Працював над мініпроєктами для навчання — створював візитки, інформаційні сторінки та мінілендинги. Особливу увагу приділяв читабельності коду та вивченню основ UX/UI-дизайну.</p>
+        <p>Зараз пробую свої сили у фреймворках та CMS, а також тренуюсь створювати сайт "з нуля" без шаблонів.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
